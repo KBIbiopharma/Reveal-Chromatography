@@ -10,6 +10,7 @@ Roadmap toward Reveal-Chromatography 2.0
 [ ] Add optimizer chaining tool.
 [ ] Add support for CADET 3.
 [ ] Explore smarter optimizers: momentum-based and MCMC-based.
+[ ] Finish adding support for python 3.
 
 
 Maintenance tasks
