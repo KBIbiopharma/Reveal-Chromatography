@@ -1,0 +1,5 @@
+name: kromatography
+# Not in use from what I can tell, but still needed by the ci_tools.configuration.Configuration class.
+environment_root: .devenv
+scratch_directory: .scratch
+runtime_version: 2.7.13

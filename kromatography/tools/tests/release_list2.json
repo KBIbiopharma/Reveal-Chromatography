@@ -1,0 +1,8 @@
+[
+	{
+		"target_versions": "0.9..+",
+		"target_builds": ".+",
+		"release_filenames": ["content_0.10.0_0.json"], 
+		"target_users": ".+"
+    }
+]
