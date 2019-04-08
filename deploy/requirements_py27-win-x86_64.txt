@@ -1,6 +1,6 @@
 # Top level dependency list (to feed edm/conda/pip):
 # traits traitsui chaco kiwisolver apptools encore numpy scipy seaborn pandas pyside 
-# pytables pyyaml six app_common h5py qtconsole sympy
+# pytables pyyaml six app_common h5py qtconsole sympy futures
 #
 # Optional (dev) dependencies:
 # nose mock flake8 sphinx ipython 
@@ -22,8 +22,6 @@ encore 0.7.0-4
 flake8 3.3.0-2
 futures 3.0.3-1
 h5py 2.9.0-1
-hdf5 1.8.16-4
-ipython4 5.6.0-3
 kiwisolver 1.0.1-1
 matplotlib 2.0.0-13
 mock 2.0.0-1
