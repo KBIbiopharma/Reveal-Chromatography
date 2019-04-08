@@ -60,7 +60,7 @@ setup(
     description='Chromatography modeling tool',
     long_description=read('README.rst'),
     ext_modules=[],
-    packages=find_packages(exclude=subpackages_to_exclude),
+    packages=find_packages(),
     install_requires=[],
     requires=[],
     # Additional data files
