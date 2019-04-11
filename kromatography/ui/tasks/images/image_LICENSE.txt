@@ -1,0 +1,13 @@
+The icons in this folder are all work from others, and pulled from the following projects:
+
+
+Project                 URL                   
+----------------------------------------------------------------------------
+Oxygen                  https://github.com/KDE/oxygen-icons
+
+
+As such they are licensed accordingly to the original license:
+
+Project                 License              File
+----------------------------------------------------------------------------
+Oxygen                  LGPL                 https://github.com/KDE/oxygen-icons/blob/master/COPYING

@@ -1,0 +1,19 @@
+
+
+Last updated: April 8th 2019
+
+
+Roadmap toward Reveal-Chromatography 2.0
+========================================
+
+[ ] Add pareto plot tool.
+[ ] Add optimizer chaining tool.
+[ ] Add support for CADET 3.
+[ ] Explore smarter optimizers: momentum-based and MCMC-based.
+[ ] Finish adding support for python 3.
+
+
+Maintenance tasks
+=================
+[ ] Replace app_common.apptools.job_manager by the new traits_futures
+[ ] 

@@ -1,0 +1,8 @@
+[
+	{
+		"target_versions": ".+",
+		"target_builds": ".+",
+		"release_filenames": ["NON_EXISTENT.json"], 
+		"target_users": "all"
+    }
+]
