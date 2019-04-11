@@ -32,7 +32,7 @@ To develop on this project, you need a Python 2.7 environment that contains the
 right list of package dependencies. The list of dependencies and their precise
 versions are to be found in :file:`deploy/requirement_py27_**_x86_64.txt`,
 where the ** should be replaced by the name of the OS you want to run on. Of
-course, in addition, this project must also be added to the developement
+course, in addition, this project must also be added to the development
 environment by running::
 
     python setup.py develop
@@ -41,8 +41,8 @@ or::
 
     python setup.py install
 
-To make sure the installation is successful, it is recommended to run the
-entire test suite, using `nose`::
+using the appropriate python environment. To make sure the installation is
+successful, it is recommended to run the entire test suite, using `nose`::
 
     nosetests -v kromatography
 
