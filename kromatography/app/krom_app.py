@@ -315,7 +315,15 @@ class KromatographyApp(TaskGuiApplication):
         view.edit_traits(kind="livemodal")
 
     def open_software_updater(self):
-        from kromatography.tools.update_downloader import UpdateDownloader
+        try:
+            from kromatography.tools.update_downloader import UpdateDownloader
+        except ImportError:
+            from app_common.std_lib.sys_utils import format_tb
+            msg = "Unable to import the updater tool. Is app_updater " \
+                  "installed? \n\n Aborting!"
+            logger.error(msg + "\n{}".format(format_tb()))
+            error(None, msg)
+            return
 
         tool = UpdateDownloader()
         # Trigger a check before opening the UI:

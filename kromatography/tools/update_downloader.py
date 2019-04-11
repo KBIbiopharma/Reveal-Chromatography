@@ -8,7 +8,6 @@ from traits.api import Str
 
 from app_common.apptools.update_downloader import UpdateDownloader as \
     BaseUpdateDownloader, version_str_to_version
-
 import kromatography
 from kromatography.utils.traitsui_utils import KromView
 from kromatography.utils.app_utils import get_updater_folder, \

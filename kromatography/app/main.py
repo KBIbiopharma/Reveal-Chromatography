@@ -57,13 +57,19 @@ def main(debug=False):
         Override debug argument and run as debug? By default, conforms to the
         -d command line argument.
     """
-    from app_updater.updater import initialize_local_egg_repo, LOCAL_EGG_REPO
     from kromatography import __version__, __build__
+    try:
+        from app_updater.updater import initialize_local_egg_repo, \
+            LOCAL_EGG_REPO
+        app_updater_missing = False
+    except ImportError:
+        app_updater_missing = True
 
-    # If first time running, create a updater folder and history file for the
-    # updater to know what version is factory installed:
-    initialize_local_egg_repo(local_egg_repo=LOCAL_EGG_REPO,
-                              version=__version__, build=__build__)
+    if not app_updater_missing:
+        # If first time running, create a updater folder and history file for
+        # the updater to know what version is factory installed:
+        initialize_local_egg_repo(local_egg_repo=LOCAL_EGG_REPO,
+                                  version=__version__, build=__build__)
 
     # FIXME: this feels like a workaround more than a real solution.
     # The symptom is that only once the application is packaged in the msi, if
