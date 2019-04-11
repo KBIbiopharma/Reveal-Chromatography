@@ -110,5 +110,5 @@ class TestChromatogramPlot(TestCase):
         uv_plot = chromatogram_plot.plot_contexts[LOG_FAMILY_UV]
 
         plot_tools = [tool.__class__.__name__ for tool in uv_plot.tools]
-        expected = ['PanTool', 'DataInspectorTool']
+        expected = ['PanTool', 'MousePositionTool']
         self.assertEqual(plot_tools, expected)

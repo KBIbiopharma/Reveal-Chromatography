@@ -10,7 +10,7 @@ from traits.api import Bool, Dict, HasStrictTraits, Instance, Str
 from app_common.chaco.constraints_plot_container import \
     ConstraintsPlotContainer
 
-from kromatography.plotting.data_inspector_tool import add_data_inspector
+from app_common.chaco.mouse_position_tool import add_mouse_position_tool
 from kromatography.utils.string_definitions import LOG_FAMILY_UV
 
 LEGEND_TOOL_LOC = 0
@@ -336,8 +336,8 @@ def build_new_plot_context(container_properties):
                          short_y_axis_title, coords[1])
         return msg
 
-    add_data_inspector(plot_context, message_for_data=message_for_data,
-                       include_overlay=True)
+    add_mouse_position_tool(plot_context, message_for_data=message_for_data,
+                            include_overlay=True)
     return plot_context
 
 
