@@ -7,9 +7,6 @@ from traits.api import Bool, Button, DelegatesTo, Enum, Instance, List, \
 from traitsui.api import HGroup, Item, ModelView, Spring, VGroup, View
 from traitsui.ui_editors.data_frame_editor import DataFrameEditor
 
-from app_common.pandas_tools.dataframe_analyzer_model_view import \
-    DataFrameAnalyzer, DataFrameAnalyzerView
-
 from kromatography.utils.traitsui_utils import KromView
 from kromatography.model.simulation_group import MULTI_SIM_RUNNER_CREATED, \
     SIM_COL_NAME, SimulationGroup
@@ -112,6 +109,9 @@ class SimulationGroupView(ModelView):
         self.model.cadet_request = True
 
     def _analyze_button_fired(self):
+        from app_common.pandas_tools.dataframe_analyzer_model_view import \
+            DataFrameAnalyzer, DataFrameAnalyzerView
+
         model = DataFrameAnalyzer(source_df=self.model.group_data)
         view = DataFrameAnalyzerView(model=model, include_plotter=True,
                                      fonts="Courrier 11", view_klass=KromView)
