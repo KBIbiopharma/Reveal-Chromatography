@@ -3,8 +3,7 @@ import os
 
 from traits.testing.unittest_tools import UnittestTools
 
-from app_common.pandas_tools.dataframe_analyzer_model_view import \
-    DataFrameAnalyzer, DataFrameAnalyzerView
+from pybleau.app.api import DataFrameAnalyzer, DataFrameAnalyzerView
 from app_common.apptools.testing_utils import temp_bringup_ui_for, temp_fname
 
 from kromatography.model.tests.sample_data_factories import \
