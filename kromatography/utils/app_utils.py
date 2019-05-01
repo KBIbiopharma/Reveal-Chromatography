@@ -105,7 +105,8 @@ def initialize_logging(prefix="krom_app", **kwargs):
     logging. For more documentation on optional arguments, see
     :func:`app_common.logging.base_initialize_logging`
     """
-    from app_common.std_lib.logging_utils import base_initialize_logging
+    from app_common.std_lib.logging_utils import initialize_logging as \
+        base_initialize_logging
 
     # Location of the log file:
     log_dir = get_log_folder()
@@ -113,7 +114,7 @@ def initialize_logging(prefix="krom_app", **kwargs):
         app_folder = get_app_folder()
         log_dir = join(app_folder, log_dir)
 
-    return base_initialize_logging(log_dir, prefix=prefix, **kwargs)
+    return base_initialize_logging(log_dir=log_dir, prefix=prefix, **kwargs)
 
 
 def get_executor_folder():
