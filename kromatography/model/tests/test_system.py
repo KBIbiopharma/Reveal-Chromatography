@@ -3,9 +3,9 @@
 import unittest
 
 from kromatography.model.system import System, SystemType
-from kromatography.model.tests.example_model_data import (
-    SYSTEM_TYPE_DATA, SYSTEM_DATA
-)
+from kromatography.model.tests.example_model_data import SYSTEM_TYPE_DATA, \
+    SYSTEM_DATA
+from app_common.apptools.assertion_utils import flexible_assert_equal
 
 
 class TestSystemType(unittest.TestCase):
@@ -18,8 +18,8 @@ class TestSystemType(unittest.TestCase):
     # -------------------------------------------------------------------------
     def test_construction(self):
         system_type = self.system_type
-        for key, value in SYSTEM_TYPE_DATA.iteritems():
-            self.assertEqual(getattr(system_type, key), value, msg=key)
+        for key, value in SYSTEM_TYPE_DATA.items():
+            flexible_assert_equal(getattr(system_type, key), value, msg=key)
 
 
 class TestSystem(unittest.TestCase):
@@ -33,5 +33,5 @@ class TestSystem(unittest.TestCase):
     # -------------------------------------------------------------------------
     def test_construction(self):
         system = self.system
-        for key, value in SYSTEM_DATA.iteritems():
-            self.assertEqual(getattr(system, key), value, msg=key)
+        for key, value in SYSTEM_DATA.items():
+            flexible_assert_equal(getattr(system, key), value, msg=key)

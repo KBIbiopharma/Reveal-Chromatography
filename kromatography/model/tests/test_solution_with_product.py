@@ -9,7 +9,8 @@ from traits.api import TraitError
 from traits.testing.unittest_tools import UnittestTools
 
 from app_common.scimath.assertion_utils import assert_unit_array_almost_equal,\
-    assert_unit_scalar_almost_equal
+    assert_unit_array_not_almost_equal, assert_unit_scalar_almost_equal
+from app_common.apptools.assertion_utils import flexible_assert_equal
 
 from kromatography.model.solution_with_product import SolutionWithProduct
 from kromatography.utils.chromatography_units import gram_per_liter
@@ -33,16 +34,15 @@ class TestSolutionWithProductLoad(TestCase):
     def test_construction_load(self):
         load = self.load
         for key, value in SOLUTIONWITHPRODUCT_LOAD.items():
-            self.assertEqual(getattr(load, key), value, msg=key)
+            flexible_assert_equal(getattr(load, key), value, msg=key)
+
         self.assertEqual(load.unique_id, {'name': load.name})
 
     def test_no_set_prod_comp_conc(self):
         load = self.load
-        new_prod_comp_conc = UnitArray(
-            [1.20, 0.50, 1.304],
-            units=gram_per_liter
-        )
-        self.assertNotEqual(
+        new_prod_comp_conc = UnitArray([1.20, 0.50, 1.304],
+                                       units=gram_per_liter)
+        assert_unit_array_not_almost_equal(
             load.product_component_concentrations,
             new_prod_comp_conc
         )
@@ -146,7 +146,8 @@ class TestSolutionWithProductPool(TestCase):
     def test_construction_pool(self):
         pool = self.pool
         for key, value in SOLUTIONWITHPRODUCT_POOL.items():
-            self.assertEqual(getattr(pool, key), value, msg=key)
+            flexible_assert_equal(getattr(pool, key), value, msg=key)
+
         self.assertEqual(pool.unique_id, {'name': pool.name})
 
     def test_set_prod_comp_conc(self):

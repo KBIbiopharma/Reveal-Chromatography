@@ -3,10 +3,11 @@
 import unittest
 
 from kromatography.model.buffer_prep import BufferPrep
-from kromatography.model.tests.example_model_data import (
-    BUFFER_PREP_ELUTION, ELUTION_INTERNAL
-)
-from kromatography.utils.assertion_utils import assert_unit_array_almost_equal
+from kromatography.model.tests.example_model_data import BUFFER_PREP_ELUTION, \
+    ELUTION_INTERNAL
+
+from app_common.scimath.assertion_utils import assert_unit_array_almost_equal
+from app_common.apptools.assertion_utils import flexible_assert_equal
 
 
 class TestBufferPrep(unittest.TestCase):
@@ -26,8 +27,9 @@ class TestBufferPrep(unittest.TestCase):
 
     def test_construction_elution(self):
         elution = self.elution
-        for key, value in BUFFER_PREP_ELUTION.iteritems():
-            self.assertEqual(getattr(elution, key), value, msg=key)
+        for key, value in BUFFER_PREP_ELUTION.items():
+            flexible_assert_equal(getattr(elution, key), value, msg=key)
+
         self.assertEqual(elution.unique_id, {'name': elution.name})
 
     def test_chemical_components(self):

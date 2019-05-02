@@ -3,9 +3,9 @@
 import unittest
 
 from kromatography.model.buffer import Buffer
-from kromatography.model.tests.example_model_data import (
-    BUFFER_ELUTION
-)
+from kromatography.model.tests.example_model_data import BUFFER_ELUTION
+
+from app_common.apptools.assertion_utils import flexible_assert_equal
 
 
 class TestBuffer(unittest.TestCase):
@@ -25,6 +25,7 @@ class TestBuffer(unittest.TestCase):
 
     def test_construction_elution(self):
         elution = self.elution
-        for key, value in BUFFER_ELUTION.iteritems():
-            self.assertEqual(getattr(elution, key), value, msg=key)
+        for key, value in BUFFER_ELUTION.items():
+            flexible_assert_equal(getattr(elution, key), value, msg=key)
+
         self.assertEqual(elution.unique_id, {'name': elution.name})
