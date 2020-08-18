@@ -51,8 +51,8 @@ def build_cadet_input(simulation):
     bead_porosity = transport_model.bead_porosity
 
     # Input validation
-    if column.resin.resin_type != 'CEX':
-        msg = 'The simulation is only supported for resins of type `CEX`'
+    if column.resin.resin_type not in ['CEX', 'AEX']:
+        msg = 'The simulation is only supported for CEX and AEX resins.'
         logger.exception(msg)
         raise NotImplementedError(msg)
 
