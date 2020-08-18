@@ -1,7 +1,0 @@
-nose-timer
-pyexcel-io==0.1.0
-pyexcel==0.2.1
-pyexcel-xls==0.1.0
-pyexcel-xlsx==0.1.0
-prettytable
-trait_documenter

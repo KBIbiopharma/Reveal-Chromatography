@@ -1,0 +1,899 @@
+{
+    "mark": [
+        {
+            "name": "app_common",
+            "state": "manual"
+        },
+        {
+            "name": "app_updater",
+            "state": "manual"
+        },
+        {
+            "name": "appdirs",
+            "state": "auto"
+        },
+        {
+            "name": "apptools",
+            "state": "manual"
+        },
+        {
+            "name": "backcall",
+            "state": "auto"
+        },
+        {
+            "name": "certifi",
+            "state": "auto"
+        },
+        {
+            "name": "chaco",
+            "state": "manual"
+        },
+        {
+            "name": "colorama",
+            "state": "auto"
+        },
+        {
+            "name": "configobj",
+            "state": "auto"
+        },
+        {
+            "name": "configparser",
+            "state": "auto"
+        },
+        {
+            "name": "coverage",
+            "state": "manual"
+        },
+        {
+            "name": "cycler",
+            "state": "manual"
+        },
+        {
+            "name": "decorator",
+            "state": "auto"
+        },
+        {
+            "name": "distribute_remove",
+            "state": "auto"
+        },
+        {
+            "name": "enable",
+            "state": "auto"
+        },
+        {
+            "name": "encore",
+            "state": "manual"
+        },
+        {
+            "name": "entrypoints",
+            "state": "auto"
+        },
+        {
+            "name": "flake8",
+            "state": "manual"
+        },
+        {
+            "name": "fonttools",
+            "state": "auto"
+        },
+        {
+            "name": "freetype",
+            "state": "auto"
+        },
+        {
+            "name": "funcsigs",
+            "state": "auto"
+        },
+        {
+            "name": "h5py",
+            "state": "manual"
+        },
+        {
+            "name": "harfbuzz",
+            "state": "auto"
+        },
+        {
+            "name": "icu4c",
+            "state": "auto"
+        },
+        {
+            "name": "intel_runtime",
+            "state": "auto"
+        },
+        {
+            "name": "ipykernel",
+            "state": "auto"
+        },
+        {
+            "name": "ipython",
+            "state": "auto"
+        },
+        {
+            "name": "ipython4",
+            "state": "manual"
+        },
+        {
+            "name": "ipython4_remove",
+            "state": "auto"
+        },
+        {
+            "name": "ipython_genutils",
+            "state": "auto"
+        },
+        {
+            "name": "jedi",
+            "state": "auto"
+        },
+        {
+            "name": "jupyter_client",
+            "state": "auto"
+        },
+        {
+            "name": "jupyter_core",
+            "state": "auto"
+        },
+        {
+            "name": "kiwisolver",
+            "state": "manual"
+        },
+        {
+            "name": "libpng",
+            "state": "auto"
+        },
+        {
+            "name": "libsodium",
+            "state": "auto"
+        },
+        {
+            "name": "libyaml",
+            "state": "auto"
+        },
+        {
+            "name": "lxml",
+            "state": "auto"
+        },
+        {
+            "name": "matplotlib",
+            "state": "manual"
+        },
+        {
+            "name": "mccabe",
+            "state": "auto"
+        },
+        {
+            "name": "mkl",
+            "state": "auto"
+        },
+        {
+            "name": "mock",
+            "state": "manual"
+        },
+        {
+            "name": "mpmath",
+            "state": "auto"
+        },
+        {
+            "name": "nose",
+            "state": "manual"
+        },
+        {
+            "name": "numexpr",
+            "state": "auto"
+        },
+        {
+            "name": "numpy",
+            "state": "manual"
+        },
+        {
+            "name": "packaging",
+            "state": "auto"
+        },
+        {
+            "name": "pandas",
+            "state": "manual"
+        },
+        {
+            "name": "parso",
+            "state": "auto"
+        },
+        {
+            "name": "pbr",
+            "state": "auto"
+        },
+        {
+            "name": "pickleshare",
+            "state": "auto"
+        },
+        {
+            "name": "pillow",
+            "state": "auto"
+        },
+        {
+            "name": "pin_intel_runtime_build",
+            "state": "auto"
+        },
+        {
+            "name": "pip",
+            "state": "manual"
+        },
+        {
+            "name": "prompt_toolkit",
+            "state": "auto"
+        },
+        {
+            "name": "psutil",
+            "state": "manual"
+        },
+        {
+            "name": "pybleau",
+            "state": "manual"
+        },
+        {
+            "name": "pycodestyle",
+            "state": "auto"
+        },
+        {
+            "name": "pyface",
+            "state": "manual"
+        },
+        {
+            "name": "pyflakes",
+            "state": "auto"
+        },
+        {
+            "name": "pygments",
+            "state": "auto"
+        },
+        {
+            "name": "pyparsing",
+            "state": "auto"
+        },
+        {
+            "name": "pyqt5",
+            "state": "manual"
+        },
+        {
+            "name": "pyqt5_sip",
+            "state": "auto"
+        },
+        {
+            "name": "pytables",
+            "state": "manual"
+        },
+        {
+            "name": "python_dateutil",
+            "state": "auto"
+        },
+        {
+            "name": "python_pptx",
+            "state": "manual"
+        },
+        {
+            "name": "pytz",
+            "state": "auto"
+        },
+        {
+            "name": "pyyaml",
+            "state": "manual"
+        },
+        {
+            "name": "pyzmq",
+            "state": "auto"
+        },
+        {
+            "name": "qt",
+            "state": "manual"
+        },
+        {
+            "name": "qtconsole",
+            "state": "manual"
+        },
+        {
+            "name": "scimath",
+            "state": "manual"
+        },
+        {
+            "name": "scipy",
+            "state": "manual"
+        },
+        {
+            "name": "seaborn",
+            "state": "manual"
+        },
+        {
+            "name": "setuptools",
+            "state": "auto"
+        },
+        {
+            "name": "simplegeneric",
+            "state": "auto"
+        },
+        {
+            "name": "six",
+            "state": "manual"
+        },
+        {
+            "name": "sympy",
+            "state": "manual"
+        },
+        {
+            "name": "tornado",
+            "state": "auto"
+        },
+        {
+            "name": "traitlets",
+            "state": "auto"
+        },
+        {
+            "name": "traits",
+            "state": "manual"
+        },
+        {
+            "name": "traitsui",
+            "state": "manual"
+        },
+        {
+            "name": "wcwidth",
+            "state": "auto"
+        },
+        {
+            "name": "win_unicode_console",
+            "state": "auto"
+        },
+        {
+            "name": "xlsxwriter",
+            "state": "auto"
+        },
+        {
+            "name": "zeromq",
+            "state": "auto"
+        }
+    ],
+    "metadata_version": "2.0",
+    "modifiers": {
+        "allow_any": [],
+        "allow_newer": [],
+        "allow_older": []
+    },
+    "repositories": {
+        "packages": [
+            "kbi/kromatography",
+            "enthought/free"
+        ],
+        "runtimes": [
+            "enthought/free"
+        ]
+    },
+    "requirements": [
+        {
+            "name": "app_common",
+            "repository": "kbi/kromatography",
+            "sha256": "ee002789fd912f9f47d8ff6d922dcaddf6cec9a5d359295d0192ac277726ae8f",
+            "version": "0.11.0-1"
+        },
+        {
+            "name": "app_updater",
+            "repository": "kbi/kromatography",
+            "sha256": "e81dd7d93c46d8701f573f447e3a35ee4debf288baaee1cb214968ca4bab1818",
+            "version": "0.3.1-1"
+        },
+        {
+            "name": "appdirs",
+            "repository": "enthought/free",
+            "sha256": "bfea50588488e47b2df937c02dc1d97b25d74b12786840109b7b654f40e95dfe",
+            "version": "1.4.3-1"
+        },
+        {
+            "name": "apptools",
+            "repository": "enthought/free",
+            "sha256": "bd1badb1d52884897215a392e185d7952d41260aa09d76d89bfc41b9868fc06e",
+            "version": "4.5.0-2"
+        },
+        {
+            "name": "backcall",
+            "repository": "enthought/free",
+            "sha256": "93d0f24877a341b72970d203f1ef03cc88ff87e24c8c6e5f9b8bc8d34980ae97",
+            "version": "0.1.0-1"
+        },
+        {
+            "name": "certifi",
+            "repository": "enthought/free",
+            "sha256": "97e02f25d11e2a4b10973120330f1545db1a7a9d01d95c092a30778a881de2b5",
+            "version": "2018.11.29-1"
+        },
+        {
+            "name": "chaco",
+            "repository": "enthought/free",
+            "sha256": "4f331a73b549b68a5bce5d9403d371b589efea3ba9bf2a259bde7596cdca3c36",
+            "version": "4.8.0-2"
+        },
+        {
+            "name": "colorama",
+            "repository": "enthought/free",
+            "sha256": "9d760ea060457da0d45f167077a92fcd90989c4e737513c4edcbb8ab642812db",
+            "version": "0.3.7-1"
+        },
+        {
+            "name": "configobj",
+            "repository": "enthought/free",
+            "sha256": "f7c2d2415ca983bb4639c3a99e77fba2e67a2458772ea81b7cc37988b32ca69e",
+            "version": "5.0.6-3"
+        },
+        {
+            "name": "configparser",
+            "repository": "enthought/free",
+            "sha256": "f4876326cc07c928be3b534c5d8d68b2ba9c64e4575a785caa087e6de1c743f0",
+            "version": "3.5.0-1"
+        },
+        {
+            "name": "coverage",
+            "repository": "enthought/free",
+            "sha256": "9e9c603e70876e7c1b605fddd78096b117b0f62550f946ab07a20292178d028f",
+            "version": "4.3.4-1"
+        },
+        {
+            "name": "cycler",
+            "repository": "enthought/free",
+            "sha256": "afe3e5f505365a65aaae442d8adafc57e392a3f36c31ac0d5ca1e6908c8ea7fd",
+            "version": "0.10.0-1"
+        },
+        {
+            "name": "decorator",
+            "repository": "enthought/free",
+            "sha256": "8dfad801a36f2077997aced4594bedeed54be0204a9cbfadf4b43c3ad0392318",
+            "version": "4.1.2-1"
+        },
+        {
+            "name": "distribute_remove",
+            "repository": "enthought/free",
+            "sha256": "8dfa28992cebe732dc876f97b3157bfbdf16ca8e58f95e54da29d54e4ddd14b3",
+            "version": "1.0.0-4"
+        },
+        {
+            "name": "enable",
+            "repository": "enthought/free",
+            "sha256": "f986afb7f5ec4da01f2ebdbf5acb5e4069fa24dcf49abc2da556f82f6684ad15",
+            "version": "4.8.1-1"
+        },
+        {
+            "name": "encore",
+            "repository": "enthought/free",
+            "sha256": "58e42dfb4e4acef13c6f358f2788dd8fbce84872b40636b2355fb0e6c5b53820",
+            "version": "0.7.0-4"
+        },
+        {
+            "name": "entrypoints",
+            "repository": "enthought/free",
+            "sha256": "defea8c1451e55e0c33917e4165b14476c02a89b0a3f3b42f43e094e177facda",
+            "version": "0.3.0-2"
+        },
+        {
+            "name": "flake8",
+            "repository": "enthought/free",
+            "sha256": "bb4734cdcea08d1690a9d0051e045cc74f814f970c3fcc0635229f9339bd83fe",
+            "version": "3.7.7-1"
+        },
+        {
+            "name": "fonttools",
+            "repository": "enthought/free",
+            "sha256": "4357720d954e0a5844226725d9e14b1fd4c69ead96645e43fdf55db7d490306e",
+            "version": "3.29.1-1"
+        },
+        {
+            "name": "freetype",
+            "repository": "enthought/free",
+            "sha256": "a8e070cf52824cfd991562ef9a5f06d751cacf2c08fcf66c3af734f26f128bb1",
+            "version": "2.10.0-4"
+        },
+        {
+            "name": "funcsigs",
+            "repository": "enthought/free",
+            "sha256": "5a0c8b1bee069f4875ca4265c7dfc6e8f5170879dd24c1dcf94e65b013ebb92f",
+            "version": "1.0.2-1"
+        },
+        {
+            "name": "h5py",
+            "repository": "enthought/free",
+            "sha256": "2bfa6a4389a904e3238c30dae08479f62bd8ca6cc3278335af4de8c0876252e6",
+            "version": "2.9.0-4"
+        },
+        {
+            "name": "harfbuzz",
+            "repository": "enthought/free",
+            "sha256": "503a8ee242c23af2a7df43dbfe8719c8782a907fb18dcf9ae02fad52791add54",
+            "version": "2.6.4-2"
+        },
+        {
+            "name": "icu4c",
+            "repository": "enthought/free",
+            "sha256": "cb175f397575d2c294ba1bfaa1ade9c6de37d7a4e7e286723856ef58b6abd7e5",
+            "version": "50.2-2"
+        },
+        {
+            "name": "intel_runtime",
+            "repository": "enthought/free",
+            "sha256": "cf61ad1145504cf1670a18cd9aacd3e809e507b1defcecdf2a714288f3f3e5af",
+            "version": "15.0.6.285-3"
+        },
+        {
+            "name": "ipykernel",
+            "repository": "enthought/free",
+            "sha256": "e4fcf2097ad9b0a23751421f6a515054530a628777de9db2be23546e1f72447e",
+            "version": "4.10.0-5"
+        },
+        {
+            "name": "ipython",
+            "repository": "enthought/free",
+            "sha256": "414381e479f12f6fdb0903124a89df91d2be0ad99c75b43e5b87661173f4ccc8",
+            "version": "6.5.0-1"
+        },
+        {
+            "name": "ipython4",
+            "repository": "enthought/free",
+            "sha256": "57fb5135fbf6bb75a2de6b00fe529b8971d5e9e28c1415074f767a6fa027ab83",
+            "version": "5.8.0-1"
+        },
+        {
+            "name": "ipython4_remove",
+            "repository": "enthought/free",
+            "sha256": "e5f7e224a1d19011e4755e3d2887c1b768c6129285d8b7543cada6733a36232b",
+            "version": "1.0.0-1"
+        },
+        {
+            "name": "ipython_genutils",
+            "repository": "enthought/free",
+            "sha256": "e24fdca808e02c1067c8258098d5a89219062e3326fa59f311c153ba3ec7afac",
+            "version": "0.2.0-1"
+        },
+        {
+            "name": "jedi",
+            "repository": "enthought/free",
+            "sha256": "4d272b7f9fb68567366eb27d897a9436d89267096c8000a5bad36666b0b12df2",
+            "version": "0.15.1-1"
+        },
+        {
+            "name": "jupyter_client",
+            "repository": "enthought/free",
+            "sha256": "dafdff632c5e0dcef8293f39628628b130ae9ea09911970082dfd712c710cf7c",
+            "version": "5.3.1-4"
+        },
+        {
+            "name": "jupyter_core",
+            "repository": "enthought/free",
+            "sha256": "5d10d12520b84eaf30e1bfc20f54030000041a9af49ebfe3f84ef407410e1f2e",
+            "version": "4.5.0-3"
+        },
+        {
+            "name": "kiwisolver",
+            "repository": "enthought/free",
+            "sha256": "15947b798d7ea9577e99cde6609ca2cca05f8d3e0f5ecb5b423a0f8d60d18b3e",
+            "version": "1.0.1-1"
+        },
+        {
+            "name": "libpng",
+            "repository": "enthought/free",
+            "sha256": "d5bdd2bc9a9d095ed0a54706e6cf3b318c2b62710bb2dbfc007e590bd8324f21",
+            "version": "1.6.36-3"
+        },
+        {
+            "name": "libsodium",
+            "repository": "enthought/free",
+            "sha256": "a6e85dd25a21a706a5fdbfea743878fe7052c8a2d78806d65173991666bc8f8f",
+            "version": "1.0.15-2"
+        },
+        {
+            "name": "libyaml",
+            "repository": "enthought/free",
+            "sha256": "5776f6ae8fcfc156223452c1f643ec9cb76773ff059fc018fbc5c655978a8309",
+            "version": "0.2.2-2"
+        },
+        {
+            "name": "lxml",
+            "repository": "enthought/free",
+            "sha256": "ccdbd99195fe1735d5601c135f904cfc62f598ca73ceb271a5a39333fecc1a41",
+            "version": "4.2.5.post106-3"
+        },
+        {
+            "name": "matplotlib",
+            "repository": "enthought/free",
+            "sha256": "84b5f144d7a0f4674b27bb98bf55172052d8fc4688ab7d5d94760ad37211c43f",
+            "version": "2.2.4-2"
+        },
+        {
+            "name": "mccabe",
+            "repository": "enthought/free",
+            "sha256": "5ef2bd3ad55c4da43a2a53550eed3fc64b7c0974c3d783449678346a059f8dab",
+            "version": "0.6.1-1"
+        },
+        {
+            "name": "mkl",
+            "repository": "enthought/free",
+            "sha256": "f51deaa61221a85b4fe793941dd54408b8d4ac132c9038d3f281096b0dcbd895",
+            "version": "2018.0.3-2"
+        },
+        {
+            "name": "mock",
+            "repository": "enthought/free",
+            "sha256": "a085372dc70ad712a7488bf47db7f6e3d342e441fba6549bc6d48fbdaaff2c8d",
+            "version": "2.0.0-3"
+        },
+        {
+            "name": "mpmath",
+            "repository": "enthought/free",
+            "sha256": "49185549bbbf06fcb7ee35446eb66078509cdcd0438946bdc82dd8b6063e88f4",
+            "version": "0.19-1"
+        },
+        {
+            "name": "nose",
+            "repository": "enthought/free",
+            "sha256": "b823e62d1e35dc458df104720bc25cf5bf425d6d00b7a6b58c89412b48b56b10",
+            "version": "1.3.7-3"
+        },
+        {
+            "name": "numexpr",
+            "repository": "enthought/free",
+            "sha256": "466dbd9fbd85c903ba6ea998c52e77163780a07ee8718ec6d4b4519cd050c156",
+            "version": "2.6.9-2"
+        },
+        {
+            "name": "numpy",
+            "repository": "enthought/free",
+            "sha256": "f9d97f9742cf690719844162f1f83a58ea3bbc6d4d586cc447c92df41ece3b99",
+            "version": "1.15.4-2"
+        },
+        {
+            "name": "packaging",
+            "repository": "enthought/free",
+            "sha256": "63ac05ad91dae2fb9440bf339d0d93854f8ba16a0c4e35f507df47c74cb6af99",
+            "version": "16.8-3"
+        },
+        {
+            "name": "pandas",
+            "repository": "enthought/free",
+            "sha256": "5b3d9ccee940a896bf80dd71f97b1dadea5695ca63fa09e20ec3b7f0a63680d4",
+            "version": "0.24.2-3"
+        },
+        {
+            "name": "parso",
+            "repository": "enthought/free",
+            "sha256": "2df03de598d8f7268ad041f97202394b60caf1adf25806cfeaa82540200ebae7",
+            "version": "0.5.1-1"
+        },
+        {
+            "name": "pbr",
+            "repository": "enthought/free",
+            "sha256": "b18a732aba1bfb5017c9b313d9430c534e7b70b7595368c894bf677c53591bf3",
+            "version": "4.2.0-4"
+        },
+        {
+            "name": "pickleshare",
+            "repository": "enthought/free",
+            "sha256": "5a7408f34853ccdeb0a4e0d64c95904acc029c2e20bd9828a12db7faba6a47ed",
+            "version": "0.7.4-2"
+        },
+        {
+            "name": "pillow",
+            "repository": "enthought/free",
+            "sha256": "f107d2a316d9df411738a513e2155dc7fcf1bcc0af2d267d676311f18ec58abc",
+            "version": "5.2.0-4"
+        },
+        {
+            "name": "pin_intel_runtime_build",
+            "repository": "enthought/free",
+            "sha256": "5976ba8ea86b746da1fe3a1b10e8862704ca17511d5be284ea028fc7b711d839",
+            "version": "1.0-1"
+        },
+        {
+            "name": "pip",
+            "repository": "enthought/free",
+            "sha256": "2debcc6281863f09c38c35fc800280fcdf0a59d24df3b8dc54e1618797ae1457",
+            "version": "20.0.2-2"
+        },
+        {
+            "name": "prompt_toolkit",
+            "repository": "enthought/free",
+            "sha256": "547365a33d380cdd49f6a478bcd5d9d559888a1c5b48ebad786a41d72a925368",
+            "version": "1.0.15-2"
+        },
+        {
+            "name": "psutil",
+            "repository": "enthought/free",
+            "sha256": "d9381db55d256d777b4b097a6c5f8a3bc0ce0e006d650a1e722c58a81df50c73",
+            "version": "5.6.1-1"
+        },
+        {
+            "name": "pybleau",
+            "repository": "kbi/kromatography",
+            "sha256": "69fc708401c33e413e158cc742e32e3831642030a708aaf11de17d5fca10dd63",
+            "version": "0.4.6-1"
+        },
+        {
+            "name": "pycodestyle",
+            "repository": "enthought/free",
+            "sha256": "04c3df901ff96d437f052ccd4dd01976ca652ab3de7ca46c858c044317e12770",
+            "version": "2.5.0-1"
+        },
+        {
+            "name": "pyface",
+            "repository": "enthought/free",
+            "sha256": "db014b46e45a55c643896223cacd3ed8d2818465c2409edf586f7cb8157234e4",
+            "version": "6.1.2-3"
+        },
+        {
+            "name": "pyflakes",
+            "repository": "enthought/free",
+            "sha256": "638569a8542048b6f40be5415c87774e4590d63d9d066a584fe7e56d62add574",
+            "version": "2.1.1-1"
+        },
+        {
+            "name": "pygments",
+            "repository": "enthought/free",
+            "sha256": "589c22af756ded210872dcee46c8dcfd59cfd852ed8ac87afb9ca0de65c0acd3",
+            "version": "2.2.0-1"
+        },
+        {
+            "name": "pyparsing",
+            "repository": "enthought/free",
+            "sha256": "07ef95bc2b52e1f6595f6c783ed455b774dc0770772cd2969dc600be7e6b3c69",
+            "version": "2.2.0-1"
+        },
+        {
+            "name": "pyqt5",
+            "repository": "enthought/free",
+            "sha256": "1192af16f4c6ccce6ba2d66802cca41a50ebb06bbf607a67fe59e4c7f01c49d8",
+            "version": "5.14.2-3"
+        },
+        {
+            "name": "pyqt5_sip",
+            "repository": "enthought/free",
+            "sha256": "0c79204eea3c38f5898b83e0012d3c569b5b16156a653d7370fe3540b503dcf2",
+            "version": "12.7.2-1"
+        },
+        {
+            "name": "pytables",
+            "repository": "enthought/free",
+            "sha256": "ede0f54f04d72753e76434e720a4121d7642dfb0a2727d43134541d5cec6ec3f",
+            "version": "3.5.1-3"
+        },
+        {
+            "name": "python_dateutil",
+            "repository": "enthought/free",
+            "sha256": "1415c496453175aff99e100a16730a684957b2b76ac5b819e40ac09fc513c870",
+            "version": "2.8.0-2"
+        },
+        {
+            "name": "python_pptx",
+            "repository": "enthought/free",
+            "sha256": "53d77356a80f67a27489bbd1465aea1aa4e771d9788665e4c17539a8b7fd4430",
+            "version": "0.6.18-1"
+        },
+        {
+            "name": "pytz",
+            "repository": "enthought/free",
+            "sha256": "eff62186d162be5a3a7774ed234fbfe9eeb6bcf4389ef1b7afa1bc6ff6260758",
+            "version": "2018.9-1"
+        },
+        {
+            "name": "pyyaml",
+            "repository": "enthought/free",
+            "sha256": "1b577d2098096ab05372a5f73ff1c624856391de5bf8116d6efec3d0d50b5e1b",
+            "version": "5.1-2"
+        },
+        {
+            "name": "pyzmq",
+            "repository": "enthought/free",
+            "sha256": "99a12194f0cf4e4b4114c2d5d47a331ffb843222e4a70e4345f3b9fb8f01a91e",
+            "version": "18.1.0-3"
+        },
+        {
+            "name": "qt",
+            "repository": "enthought/free",
+            "sha256": "e318df055c26a6af643524aed1b0a52c560d15716b388f754bde276a69c8b5af",
+            "version": "5.12.6-5"
+        },
+        {
+            "name": "qtconsole",
+            "repository": "enthought/free",
+            "sha256": "c7bb5d8715a1d2b97ec2875d3da00cf31241381c45233120b5657b82bf18e85b",
+            "version": "4.3.1.post1-6"
+        },
+        {
+            "name": "scimath",
+            "repository": "enthought/free",
+            "sha256": "dd02a2362548c4f97b421faf35da32ff64ce529697d036361ab6153725123eba",
+            "version": "4.2.0-5"
+        },
+        {
+            "name": "scipy",
+            "repository": "enthought/free",
+            "sha256": "2ee37fca39aaa17142677b6b908d9040e68f8cb6fb2045a35ae3082dabb79884",
+            "version": "1.2.1-1"
+        },
+        {
+            "name": "seaborn",
+            "repository": "enthought/free",
+            "sha256": "2ad0d8ff62d4551cfc6537f2ca8f8c50aafd5589d028e88533042536083affa5",
+            "version": "0.9.0-6"
+        },
+        {
+            "name": "setuptools",
+            "repository": "enthought/free",
+            "sha256": "4dddd967fb4f2b1cbc8cdddf530241e5345b55d7715ef90e758dff564bdd5626",
+            "version": "41.6.0-3"
+        },
+        {
+            "name": "simplegeneric",
+            "repository": "enthought/free",
+            "sha256": "c1bac237fb1ea7c7fb0dbdb562ceedcb71784c41a6a3faa4898603de0a57a4f0",
+            "version": "0.8.1-1"
+        },
+        {
+            "name": "six",
+            "repository": "enthought/free",
+            "sha256": "69b68c6dbeaa9ece01bbb0614ab04e50a1e307a60de9b48bc24d0346f7b805b9",
+            "version": "1.11.0-1"
+        },
+        {
+            "name": "sympy",
+            "repository": "enthought/free",
+            "sha256": "36239862c3ca6398b0d8ba5345b8b850f6a6ba8b86376ffea8bf1b948d2396ec",
+            "version": "1.0-2"
+        },
+        {
+            "name": "tornado",
+            "repository": "enthought/free",
+            "sha256": "a629a48b512c8c6e86a2f94d75a212e7d2efa46b47017fb3961c616ecfebc9a0",
+            "version": "5.1.1-1"
+        },
+        {
+            "name": "traitlets",
+            "repository": "enthought/free",
+            "sha256": "a55f0513ed43fd2a3735387cbddcf2727a85800cdae11a4b214e1222b1cea5b8",
+            "version": "4.3.2-3"
+        },
+        {
+            "name": "traits",
+            "repository": "enthought/free",
+            "sha256": "7bb158b5678f54937c97ce59529832b506e73d6d34b33f1960c3d3b924638df5",
+            "version": "5.1.2-1"
+        },
+        {
+            "name": "traitsui",
+            "repository": "enthought/free",
+            "sha256": "e9cc3d307cd00c3294e6eaadc7543f0bbfaf6c247ed4c121f451e83be525038a",
+            "version": "6.1.3-2"
+        },
+        {
+            "name": "wcwidth",
+            "repository": "enthought/free",
+            "sha256": "dfc0e467685ec06f72c0824e6f4d6e3056f362ccf007522276c9a5edf430878c",
+            "version": "0.1.7-1"
+        },
+        {
+            "name": "win_unicode_console",
+            "repository": "enthought/free",
+            "sha256": "c624ce679bdb6efd825fb2650675d24881e64e3f9852e7a986a6ebffa6e9aeca",
+            "version": "0.5-1"
+        },
+        {
+            "name": "xlsxwriter",
+            "repository": "enthought/free",
+            "sha256": "3b980c51e3743abcd821b4ae87f7eef247e95cc5f474d19d6a29820a69ac07d6",
+            "version": "0.9.6-1"
+        },
+        {
+            "name": "zeromq",
+            "repository": "enthought/free",
+            "sha256": "3e8a0107a52afec200adaa48816834b60c4d52f5ab0f57395ab69887997cd5c2",
+            "version": "4.3.2-3"
+        }
+    ],
+    "runtime": {
+        "implementation": "cpython",
+        "platform": "win_x86_64",
+        "platform_abi": "msvc2015",
+        "repository": "enthought/free",
+        "sha256": "d3e65fc75d0229ad9874f60977c7375c3a55a5862961fc128420bacb0b2fe7e2",
+        "version": "3.6.10+1"
+    }
+}
